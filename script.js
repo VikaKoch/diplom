@@ -26,14 +26,14 @@ function showSlide(id) {
 
 }
 
-setInterval(()=>{
-  if(activeIndex < slidesCount) {
-    activeIndex++
-  } else {
-    activeIndex=0
-  }
-  showSlide(activeIndex)
-}, 5000)
+// setInterval(()=>{
+//   if(activeIndex < slidesCount) {
+//     activeIndex++
+//   } else {
+//     activeIndex=0
+//   }
+//   showSlide(activeIndex)
+// }, 5000)
 
 // Показываем дефолтный слайд
 showSlide(activeIndex)

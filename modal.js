@@ -1,14 +1,16 @@
-const modalBtns = [...document.querySelectorAll('.about-btn'), document.querySelector('.mail-to-btn'), ...document.querySelectorAll('.slide-btn-submit')]
-const modalWindow = document.querySelector('.modal')
-const closeBtns = [...document.querySelectorAll('.modal-btn')]
-modalBtns.map(btn=>{
-    btn.addEventListener('click', ()=>{
-        modalWindow.classList.toggle('active')
-    })
-})
+const windowModal = document.querySelector('.modal')
+const windowModalButton = document.querySelector('.modal-btn')
 
-closeBtns.map(btn=>{
-    btn.addEventListener('click', ()=>{
-        modalWindow.classList.remove('active')
-    })
+windowModalButton.addEventListener('click', ()=> {
+    hide()
 })
+const show = () => {
+    windowModal.classList.add('active')
+}
+const hide = () => {
+    windowModal.classList.remove('active')
+}
+
+setTimeout(()=>{
+    show()
+}, 5000)

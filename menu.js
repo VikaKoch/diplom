@@ -143,18 +143,18 @@ for(list in menuList) {
     const newItemList = document.createElement('ul')
     const newItemTitle = document.createElement('span')
     const newItemButton = document.createElement('button') 
-
-    newItemButton.innerHTML = 'открыть'
+    newItemButton.classList.add('prices-item-btn')
+    newItemButton.innerHTML = '<img src="imgs/arrow-down.png" width="25px" />'
     newItemButton.addEventListener('click', ()=>{
         newItemList.classList.toggle('menuActive')
         if(newItemList.classList.contains('menuActive')) {
             newItemList.style.display='block'
             newItemList.style.opacity='1'
-            newItemButton.innerHTML='Закрыть'
+            newItemButton.innerHTML='<img src="imgs/arrow-down.png" width="25px" style="transform: rotate(3.142rad);" />'
         } else {
             newItemList.style.opacity='1'
             newItemList.style.display='none'
-            newItemButton.innerHTML='Открыть'
+            newItemButton.innerHTML='<img src="imgs/arrow-down.png" width="25px" />'
         }
     })
 
