@@ -8,7 +8,7 @@ document.addEventListener('scroll', ()=>{
             item.style.color='#343434'
         })
     } else {
-        header.style.background='#343434'
+        header.style.background='rgb(127 127 127)'
         menuHeaders.map(item=>{
             item.style.color='white'
         })
