@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <div class="container-nav container">
+            <div class="navbar__wrap">
+            <div class="hamb">
+                <div class="hamb__field" id="hamb">
+                <span class="bar"></span> 
+                <span class="bar"></span>
+                <span class="bar"></span>
+                </div>
+            </div>
+            <a href="#" class="logo" id="logo">Ложка за маму</a>
+            <ul class="menu-nav" id="menu">
+                <li><a href="#list">Наши блюда</a></li>
+                <li><a href="#sale">Блюдо дня</a></li>
+                <li><a href="#geo">Где нас найти</a></li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+        <div class="popup" id="popup"></div>
+</header>
+<main>
+    <section class="prewiev">
+        <div class="prewiev__body container">
+            <div class="prewiev-text">
+                <span>Ложка за маму</span>
+                <span>Лучшая столовая в этом городе</span>
+            </div>
+            <div class="prewiev-btns">
+                <a href="#list"><button class="prewiev-btn">Перейти к меню</button></a>
+                <a href="tel:+79896254227"><button class="prewiev-btn">Хотите сделать заказ</button></a>
+                
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="banner__body container">
+            <span class="banner-text">
+                Попробуйте наши блюда и наслаждайтесь настоящей едой
+            </span>
+            <a href="tel:+79896254227">
+            <button class="banner-btn">
+                Забронировать столик
+            </button>
+        </a>
+        </div>
+    </section>
+    <section class="menu" id="list">
+        <div class="menu__body container">
+            <div class="menu__title">
+                <span class="menu-subtitle">
+                    Наши популярный позиции
+                </span>
+                <span class="menu-title">
+                    Меню
+                </span>
+                <hr width="60%">
+            </div>
+            <div class="menu-list">
+                <div class="menu-item">
+                    <div class="item-img">
+                        <img src="./image/menu-item-fish.jpg" alt="">
+                    </div>
+                    <div class="item-text">
+                        <span class="item-title">
+                            Рыбное филе
+                        </span>
+                        <span class="item-subtitle">
+                            Нежное филе свежей рыбы политое томатным соусом.
+                        </span>
+                    </div>
+                    <div class="item-price">
+                        450₽
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img">
+                        <img src="./image/menu-item-perlovka.jpg" alt="">
+                    </div>
+                    <div class="item-text">
+                        <span class="item-title">
+                            Каша перловая
+                        </span>
+                        <span class="item-subtitle">
+                            Каша перловая с бананом и голубикой
+                        </span>
+                    </div>
+                    <div class="item-price">
+                        450₽
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img">
+                        <img src="./image/menu-item-pelmeni.jpg" alt="">
+                    </div>
+                    <div class="item-text">
+                        <span class="item-title">
+                            Пельмени
+                        </span>
+                        <span class="item-subtitle">
+                            Пельмени говяжьи домашние
+                        </span>
+                    </div>
+                    <div class="item-price">
+                        450₽
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img">
+                        <img src="./image/menu-item-oladi.jpg" alt="">
+                    </div>
+                    <div class="item-text">
+                        <span class="item-title">
+                            Оладьи
+                        </span>
+                        <span class="item-subtitle">
+                            Оладьи сдобные сладкие
+                        </span>
+                    </div>
+                    <div class="item-price">
+                        450₽
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img">
+                        <img src="./image/menu-item-kasha.jpg" alt="">
+                    </div>
+                    <div class="item-text">
+                        <span class="item-title">
+                            Каша
+                        </span>
+                        <span class="item-subtitle">
+                            Молочная овсяная каша с орехами и бананом
+                        </span>
+                    </div>
+                    <div class="item-price">
+                        450₽
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img">
+                        <img src="./image/menu-item-olivki.jpg" alt="">
+                    </div>
+                    <div class="item-text">
+                        <span class="item-title">
+                            Салат греческий
+                        </span>
+                        <span class="item-subtitle">
+                            Оливки , листья салата, помидор, сыр фета, балгарский перец, укроп и петрушка
+                        </span>
+                    </div>
+                    <div class="item-price">
+                        210₽
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="more" id="sale">
+        <div class="more__body container">
+            <div class="more-text">
+                <span class="more-title">
+                    сегодняшний выбор поваров
+                </span>
+                <span class="more-subtitle">
+                    Класическое оливье
+                </span>
+                <span class="more-description">
+                    Оливье́ — закусочный салат русской кухни из отварных корнеплодов, солёных огурцов, яиц с мясом или варёной колбасой в майонезной заправке.
+                </span>
+                <button class="more-btn">
+                    175₽
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="geo">
+        <div class="about__body container">
+            <div class="about-text">
+                <span class="about-title">
+                    Связь с нами
+                </span>
+                <span class="about-subtitle">
+                    Мы рады будет ответить на ваши вопросы, или принять осмотреть вопросы сотрудничества. Так же вы можете сделать заказ заполнив форму.
+                </span>
+                <ul class="contact-list">
+                    <li class="contact-item">
+                        <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M23.4236 41.8172C23.424 41.8174 23.4243 41.8176 24 41L23.4236 41.8172ZM24.5764 41.8172L24.58 41.8146L24.5891 41.8082L24.6209 41.7854C24.6482 41.7658 24.6875 41.7374 24.7379 41.7004C24.8387 41.6263 24.9842 41.5178 25.1681 41.3765C25.5357 41.0938 26.0571 40.6794 26.6811 40.1459C27.9277 39.08 29.5908 37.5328 31.2565 35.6059C34.5639 31.7799 38 26.3195 38 20.0769C38 16.3454 36.5264 12.7655 33.9016 10.1251C31.2765 7.48454 27.7149 6 24 6C20.2851 6 16.7235 7.48454 14.0984 10.1251C11.4736 12.7655 10 16.3454 10 20.0769C10 26.3195 13.4361 31.7799 16.7435 35.6059C18.4092 37.5328 20.0723 39.08 21.3189 40.1459C21.9429 40.6794 22.4643 41.0938 22.8319 41.3765C23.0158 41.5178 23.1613 41.6263 23.2621 41.7004C23.3125 41.7374 23.3518 41.7658 23.3791 41.7854L23.4109 41.8082L23.42 41.8146L23.4236 41.8172C23.7689 42.0603 24.2311 42.0603 24.5764 41.8172ZM24 41L24.5764 41.8172C24.576 41.8174 24.5757 41.8176 24 41ZM29 20C29 22.7614 26.7614 25 24 25C21.2386 25 19 22.7614 19 20C19 17.2386 21.2386 15 24 15C26.7614 15 29 17.2386 29 20Z" fill="#ffa580"/>
+                        </svg>
+                        Самарское ш., 21Г, Батайск
+                    </li>
+                    <li class="contact-item">
+                        <svg width="30" height="30" data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><title/>
+                            <path d="M116.73,31.83a3,3,0,0,0-4.2-.61L64.14,67.34a1,1,0,0,1-1.2,0L15.5,31.06a3,3,0,1,0-3.64,4.77L49.16,64.36,12.27,92.16A3,3,0,1,0,15.88,97L54.11,68.14l5.18,4a7,7,0,0,0,8.43.06l5.44-4.06L111.84,97a3,3,0,1,0,3.59-4.81L78.17,64.35,116.12,36A3,3,0,0,0,116.73,31.83Z" fill="#ffa580"/><path fill="#ffa580" d="M113,19H15A15,15,0,0,0,0,34V94a15,15,0,0,0,15,15h98a15,15,0,0,0,15-15V34A15,15,0,0,0,113,19Zm9,75a9,9,0,0,1-9,9H15a9,9,0,0,1-9-9V34a9,9,0,0,1,9-9h98a9,9,0,0,1,9,9Z"/>
+                        </svg>
+                        vivian0.black@gmail.com
+                    </li>
+                    <li class="contact-item">
+                        <svg width="30" height="30" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><title/><g data-name="1" id="_1">
+                            <path fill="#ffa580" d="M348.73,450.06a198.63,198.63,0,0,1-46.4-5.85c-52.43-12.65-106.42-44.74-152-90.36s-77.71-99.62-90.36-152C46.65,146.75,56.15,99.61,86.69,69.07l8.72-8.72a42.2,42.2,0,0,1,59.62,0l50.11,50.1a42.18,42.18,0,0,1,0,59.62l-29.6,29.59c14.19,24.9,33.49,49.82,56.3,72.63s47.75,42.12,72.64,56.31L334.07,299a42.15,42.15,0,0,1,59.62,0l50.1,50.1a42.16,42.16,0,0,1,0,59.61l-8.73,8.72C413.53,439,383.73,450.06,348.73,450.06ZM125.22,78a12,12,0,0,0-8.59,3.56l-8.73,8.72c-22.87,22.87-29.55,60-18.81,104.49,11.37,47.13,40.64,96.1,82.41,137.86s90.73,71,137.87,82.41c44.5,10.74,81.61,4.06,104.48-18.81l8.72-8.72a12.16,12.16,0,0,0,0-17.19l-50.09-50.1a12.16,12.16,0,0,0-17.19,0l-37.51,37.51a15,15,0,0,1-17.5,2.72c-30.75-15.9-61.75-39.05-89.65-66.95s-51-58.88-66.94-89.63a15,15,0,0,1,2.71-17.5l37.52-37.51a12.16,12.16,0,0,0,0-17.19l-50.1-50.11A12.07,12.07,0,0,0,125.22,78Z"/><path fill="#ffa580" d="M364.75,269.73a15,15,0,0,1-15-15,99.37,99.37,0,0,0-99.25-99.26,15,15,0,0,1,0-30c71.27,0,129.25,58,129.25,129.26A15,15,0,0,1,364.75,269.73Z"/><path fill="#ffa580" d="M428.15,269.73a15,15,0,0,1-15-15c0-89.69-73-162.66-162.65-162.66a15,15,0,0,1,0-30c106.23,0,192.65,86.43,192.65,192.66A15,15,0,0,1,428.15,269.73Z"/></g>
+                        </svg>
+                        +7 (989) 625-42-27
+                    </li>
+                </ul>
+            </div>
+            <div class="about-form">
+                <input type="text" placeholder="Введите ваше имя">
+                <textarea type="text" placeholder="Введите ваше сообщение"></textarea>
+                <a href=""><button>Отправить сообщение</button></a>
+            </div>
+        </div>
+        <div class="maps container">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5767297305185019a36683dd1e82719c7e90adcfad3c56766ce0c87aa9a657c9&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        </div>
+    </section>
+</main>
+<footer>
+    © Copyright 2022-2023, Ложка за маму
+</footer>
+
+<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+// Добавить плавную прокрутку до всех ссылок
+$("a").on('click', function(event) {
+
+    // Убедись в этом что .hash имеет значение перед переопределением поведения по умолчанию
+    if (this.hash !== "") {
+    // Запретить поведение щелчка якоря по умолчанию
+    event.preventDefault();
+
+    // Хранить хэш
+    var hash = this.hash;
+
+    // Использование метода animate() jQuery для добавления плавной прокрутки страницы
+    // Необязательное число (800) указывает количество миллисекунд, необходимых для прокрутки до указанной области
+    $('html, body').animate({
+        scrollTop: $(hash).offset().top
+    }, 800, function(){
+
+        // Добавить хэш (#) для URL-адреса после завершения прокрутки (поведение щелчка по умолчанию)
+        window.location.hash = hash;
+    });
+    } // Конец, если
+});
+});
+</script>
+</body>
+</html>

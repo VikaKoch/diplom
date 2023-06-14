@@ -1,0 +1,514 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+.container-nav {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    background: #2b2b2b63;
+  }
+  
+  .navbar__wrap {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .hamb {
+    display: none;
+  }
+  
+  .popup {
+    display: none;
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-nav > li > a {
+    text-decoration: none;
+  }
+  
+  .navbar__wrap .menu-nav {
+    display: flex;
+  }
+  
+  .navbar__wrap .menu-nav > li {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .navbar__wrap .menu-nav > li > a {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .navbar__wrap .menu-nav > li > a:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.prewiev {
+    background-image: url("./image/prewiev_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+.prewiev__body {
+    background: rgba(38, 29, 29, 0.609);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: flex-start;
+}
+.prewiev-text {
+    display: flex;
+    flex-direction: column;
+}
+.prewiev-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.logo {
+    font-family: 'Caveat', cursive;
+    color: #ffa580;
+}
+.prewiev-text span:first-child {
+    font-family: 'Caveat', cursive;
+    color: #ffa580;
+    font-size: 48px;
+}
+.prewiev-text span:last-child {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.prewiev-btns a:first-child .prewiev-btn  {
+    padding: 8px 12px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    background: transparent;
+    color: #ffa580;
+    border: 3px solid #ffa580;
+}
+
+.prewiev-btns a:last-child .prewiev-btn  {
+    padding: 8px 12px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    background: #ffa580;
+    color: black;
+    border: 3px solid #ffa580;
+}
+
+.banner {
+    background-color: #ffa580;
+    padding: 50px 0;
+}
+.banner__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: black;
+    size: 18px;
+}
+
+.banner-btn {
+    padding: 8px 12px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    background: transparent;
+    border: 1px solid black;
+}
+
+.menu {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+}
+.menu__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.menu__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu-title {
+    font-family: 'Caveat', cursive;
+    color: #ffa580;
+    font-size: 48px;
+}
+
+.menu-subtitle {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 24px;
+}
+.menu__title hr {
+    border: none;
+    color: #ffa580;
+    background-color: #ffa580;
+    height: 2px;
+}
+.menu-list {
+    padding: 24px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 49%;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.item-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.item-text {
+    padding: 16px 0;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+.item-title {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 18px;
+}
+.item-subtitle {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 14px;
+}
+
+.item-price {
+    padding: 16px 0;
+    color: #ffa580;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.more {
+    background-image: url("./image/more_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+}
+.more__body {
+    background: rgba(38, 29, 29, 0.609);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2rem ;
+    padding-bottom: 2rem;
+}
+
+.more-text {
+    background-color: rgb(34, 34, 34);
+    padding: 24px 36px;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.more-title {    
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: #ffa580;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.more-subtitle {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.more-description {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+.more-btn {
+    width: fit-content;
+    padding: 8px 12px;
+    font-size: 18px;
+    color: #ffa580;
+    text-transform: uppercase;
+    font-weight: 900;
+    background: transparent;
+    border: #ffa580 2px solid;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about {
+    background-color: rgb(34, 34, 34);
+    padding-top: 70px;
+    padding-bottom: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.about__body {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.contact-list li {
+    list-style: none;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+}
+.about-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+}
+.about-title {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 900;
+}
+.about-subtitle {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+.about-form  {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+}
+.about-form input {
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid gray;
+}
+.about-form textarea {
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    padding: 8px 12px;
+    color: white;
+    border: 1px solid gray;
+    height: 100px; /* Высота поля в пикселях */
+    resize: none; /* Запрещаем изменять размер */
+}
+.about-form button {
+    padding: 8px 12px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    background: transparent;
+    width: fit-content;
+    color: #ffa580;
+    border: 1.5px solid #ffa580;
+}
+footer {
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    color: gray;
+    padding: 24px 0;
+}
+
+@media (max-width: 1000px) {
+    .more__body {
+        padding: 24px;
+    }
+    .more-text {
+        width: 100%;
+    }
+    .menu-list {
+        flex-wrap: wrap;
+    }
+    .menu-item {
+        width: fit-content;
+    }
+    .item-img img {
+        width: 100px;
+        height: 100px;
+    }
+    .about__body {
+        flex-wrap: wrap;
+    }
+    .about-text {
+        width: auto;
+    }
+    .about-form {
+        width: 90vw;
+    }
+    .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .navbar__wrap .menu-nav {
+      display: none;
+    }
+  
+    .hamb {
+      display: flex;
+      align-items: center;
+    }
+  
+    .hamb__field {
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  
+    .bar {
+      display: block;
+      width: 30px;
+      height: 3px;
+      margin: 6px auto;
+      background-color: #fff;
+      transition: 0.2s;
+    }
+  
+    .popup {
+      position: fixed;
+      top: 75px;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      z-index: 100;
+      display: flex;
+      transition: 0.3s;
+    }
+  
+    .popup.open {
+      left: 0;
+    }
+  
+    .popup .menu-nav {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      padding: 50px 0;
+      overflow: auto;
+    }
+  
+    .popup .menu-nav > li {
+      width: 100%;
+    }
+  
+    .popup .menu-nav > li > a {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+      font-size: 20px;
+      font-weight: bold;
+      color: #3f3f3f;
+    }
+  
+    .popup .menu-nav > li > a:hover {
+      background-color: rgba(122, 82, 179, 0.1);
+    }
+  
+    .hamb__field.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamb__field.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    .hamb__field.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+    body.noscroll {
+      overflow: hidden;
+    }
+  }
